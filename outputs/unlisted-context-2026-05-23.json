@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-05-23T15:00:00Z",
+  "note": "Tickers extracted from watchlist posts that are NOT yet publicly listed and therefore not covered by the yfinance enrichment.",
+  "tickers": [
+    {
+      "ticker": "SPCX",
+      "company_name": "Space Exploration Technologies Corp (SpaceX)",
+      "listing_market": "NASDAQ (planned 2026-06-12)",
+      "ipo_status": "S-1 filed 2026-05-20. Roadshow begins 2026-06-04. Pricing 2026-06-11. Listing 2026-06-12.",
+      "estimated_valuation_usd": "1750000000000",
+      "estimated_raise_usd": "75000000000",
+      "estimated_psr": "Approximately 90x sales at target valuation",
+      "key_financials_2025": {
+        "revenue": "18.6B",
+        "revenue_growth_yoy": "+33%",
+        "starlink_q1_2026_revenue": "3.26B",
+        "starlink_subscribers_2026_q1": "10.3M",
+        "q1_2026_revenue": "4.69B",
+        "q1_2026_net_loss": "-4.3B"
+      },
+      "governance_notes": "Elon Musk retains 85.1% voting control via super-voting share class.",
+      "notes": "Largest IPO in history if priced at target. Mentioned by @InTheAssembly, @KobeissiLetter, @hkuppy, @unusual_whales in the 24h window.",
+      "sources": [
+        "https://www.cnbc.com/2026/05/20/spacex-ipo-live-updates.html",
+        "https://www.tradingkey.com/analysis/stocks/us-stocks/261904604-spacex-ipo-spcx-date-set-for-june-12-175-trillion-valuation-tradingkey",
+        "https://fortune.com/2026/05/20/spacex-finally-files-ipo-prospectus-reveals-revenue-is-up-but-losses-are-too/",
+        "https://seekingalpha.com/article/4908034-spacex-ipo-what-you-need-to-know"
+      ]
+    }
+  ]
+}

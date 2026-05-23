@@ -125,9 +125,9 @@ def merge(
         }
         if unlisted:
             row["unlisted_context"] = {
-                "ipo_status": unlisted.get("ipo_status"),
-                "notes": unlisted.get("notes"),
-                "sources": unlisted.get("sources", []),
+                k: v
+                for k, v in unlisted.items()
+                if k not in {"ticker", "company_name", "listing_market", "market_cap_usd"}
             }
         result_tickers.append(row)
 
@@ -151,16 +151,18 @@ def main(argv: list[str] | None = None) -> int:
     data_dir = Path(args.data_dir)
     output_dir = Path(args.output_dir)
 
-    extracted = safe_load(data_dir / f"extracted-tickers-{args.date}.json")
+    # Per-date intermediate artifacts live under outputs/
+    extracted = safe_load(output_dir / f"extracted-tickers-{args.date}.json")
     if extracted is None:
         print(
-            f"ERROR: extracted-tickers-{args.date}.json not found. Run extract_tickers.py first.",
+            f"ERROR: outputs/extracted-tickers-{args.date}.json not found. Run extract_tickers.py first.",
             file=sys.stderr,
         )
         return 2
 
-    yfinance = safe_load(data_dir / f"yfinance-enrichment-{args.date}.json")
-    unlisted = safe_load(data_dir / f"unlisted-context-{args.date}.json")
+    yfinance = safe_load(output_dir / f"yfinance-enrichment-{args.date}.json")
+    unlisted = safe_load(output_dir / f"unlisted-context-{args.date}.json")
+    # Long-lived master files live under data/
     tokenized_master = safe_load(data_dir / "tokenized-issuers.json")
     primary_master = safe_load(data_dir / "primary-issuance.json")
 

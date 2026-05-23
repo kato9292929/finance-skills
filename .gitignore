@@ -1,10 +1,18 @@
-# Daily run artifacts (本番データはコミットしない; outputs/ の .MOCK.json は例外)
-data/twitter-posts-*.json
-data/extracted-tickers-2*.json
-data/yfinance-enrichment-2*.json
-data/unlisted-context-2*.json
+# 日次成果物は本番運用では cron が outputs/ に書き出すため、コミット対象外。
+# ただし test-run や reference として明示的に追加する日付ファイルは
+# git add -f で個別追跡。今コミットしている 2026-05-23 一式はその例。
+data/raw-posts/2*.json
+!data/raw-posts/2026-05-23.json
+data/manual-enrichment-2*.json
+!data/manual-enrichment-2026-05-23.json
+outputs/extracted-tickers-2*.json
+!outputs/extracted-tickers-2026-05-23.json
+outputs/yfinance-enrichment-2*.json
+!outputs/yfinance-enrichment-2026-05-23.json
+outputs/unlisted-context-2*.json
+!outputs/unlisted-context-2026-05-23.json
 outputs/daily-stock-data-2*.json
-!outputs/daily-stock-data-*.MOCK.json
+!outputs/daily-stock-data-2026-05-23.json
 
 # Python
 __pycache__/

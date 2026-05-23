@@ -1,0 +1,409 @@
+{
+  "generated_at": "2026-05-23T16:20:34Z",
+  "post_count": 10,
+  "ticker_count": 19,
+  "tickers": [
+    {
+      "ticker": "NVDA",
+      "mention_count": 4,
+      "weighted_mention_count": 5.8,
+      "unique_sources": [
+        "@Doug_OLaughlin",
+        "@OndoFinance",
+        "@SemiAnalysis_",
+        "@dinari_io"
+      ],
+      "mentions": [
+        {
+          "source": "@Doug_OLaughlin",
+          "url": "https://x.com/Doug_OLaughlin/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T14:00:00Z",
+          "context": "Updating the semis quality screen. $AVGO and $NVDA remain best-in-class. $TSEM the most underrated. Memory cyc"
+        },
+        {
+          "source": "@SemiAnalysis_",
+          "url": "https://x.com/SemiAnalysis_/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T10:00:00Z",
+          "context": "und. $AMD EPYC is the cleanest x86 beneficiary. GTC '26 saw $NVDA's Groq LPX, Vera ETL256, and STX systems land. Pure GPU the"
+        },
+        {
+          "source": "@dinari_io",
+          "url": "https://x.com/dinari_io/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T22:00:00Z",
+          "context": "n Arbitrum and Base. 150+ US equities including $AAPL $TSLA $NVDA $SPY $MSTR $GOOGL. New: Flow Traders providing market makin"
+        },
+        {
+          "source": "@OndoFinance",
+          "url": "https://x.com/OndoFinance/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T20:00:00Z",
+          "context": "es to @HyperliquidX via @LayerZero_Core including $SPY $QQQ $NVDA $TSLA $GOOGL. 260+ stocks/ETFs now live across Solana, Ethe"
+        }
+      ]
+    },
+    {
+      "ticker": "SPCX",
+      "mention_count": 4,
+      "weighted_mention_count": 4.8,
+      "unique_sources": [
+        "@InTheAssembly",
+        "@KobeissiLetter",
+        "@hkuppy",
+        "@unusual_whales"
+      ],
+      "mentions": [
+        {
+          "source": "@InTheAssembly",
+          "url": "https://x.com/InTheAssembly/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T15:00:00Z",
+          "context": "SpaceX has filed its S-1. Listing as $SPCX on Nasdaq targeting June 12, $1.75T valuation, $75B raise."
+        },
+        {
+          "source": "@KobeissiLetter",
+          "url": "https://x.com/KobeissiLetter/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T18:30:00Z",
+          "context": "$SPCX prospectus is out. SpaceX 2025 revenue $18.6B (+33% YoY), Q"
+        },
+        {
+          "source": "@hkuppy",
+          "url": "https://x.com/hkuppy/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T19:00:00Z",
+          "context": "Everyone is obsessed with $SPCX. The interesting trade is the secondary read-through: who g"
+        },
+        {
+          "source": "@unusual_whales",
+          "url": "https://x.com/unusual_whales/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T13:30:00Z",
+          "context": "Massive call sweep on $RKLB ahead of $SPCX roadshow. $RDW unusual put activity. $BKSY calls also hot."
+        }
+      ]
+    },
+    {
+      "ticker": "RKLB",
+      "mention_count": 3,
+      "weighted_mention_count": 3.8,
+      "unique_sources": [
+        "@InTheAssembly",
+        "@hkuppy",
+        "@unusual_whales"
+      ],
+      "mentions": [
+        {
+          "source": "@InTheAssembly",
+          "url": "https://x.com/InTheAssembly/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T15:00:00Z",
+          "context": "t IPO in history. Watch the satellite / launch comp basket: $RKLB $RDW $BKSY $LMT for sympathy moves into the roadshow."
+        },
+        {
+          "source": "@hkuppy",
+          "url": "https://x.com/hkuppy/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T19:00:00Z",
+          "context": "where does the IPO sucker capital come from? I'm looking at $RKLB and $GHM not the parent."
+        },
+        {
+          "source": "@unusual_whales",
+          "url": "https://x.com/unusual_whales/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T13:30:00Z",
+          "context": "Massive call sweep on $RKLB ahead of $SPCX roadshow. $RDW unusual put activity. $BKSY c"
+        }
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "mention_count": 2,
+      "weighted_mention_count": 3.0,
+      "unique_sources": [
+        "@Doug_OLaughlin",
+        "@SemiAnalysis_"
+      ],
+      "mentions": [
+        {
+          "source": "@Doug_OLaughlin",
+          "url": "https://x.com/Doug_OLaughlin/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T14:00:00Z",
+          "context": "MU recovering but $WDC and Kioxia tracking weaker. Watching $AMD on the agentic AI CPU thesis from SemiAnalysis."
+        },
+        {
+          "source": "@SemiAnalysis_",
+          "url": "https://x.com/SemiAnalysis_/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T10:00:00Z",
+          "context": "are back. 50-90% of agentic workload latency is CPU-bound. $AMD EPYC is the cleanest x86 beneficiary. GTC '26 saw $NVDA's G"
+        }
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "mention_count": 2,
+      "weighted_mention_count": 2.8,
+      "unique_sources": [
+        "@OndoFinance",
+        "@dinari_io"
+      ],
+      "mentions": [
+        {
+          "source": "@dinari_io",
+          "url": "https://x.com/dinari_io/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T22:00:00Z",
+          "context": "trum and Base. 150+ US equities including $AAPL $TSLA $NVDA $SPY $MSTR $GOOGL. New: Flow Traders providing market making. La"
+        },
+        {
+          "source": "@OndoFinance",
+          "url": "https://x.com/OndoFinance/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T20:00:00Z",
+          "context": "zed equities to @HyperliquidX via @LayerZero_Core including $SPY $QQQ $NVDA $TSLA $GOOGL. 260+ stocks/ETFs now live across S"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "mention_count": 2,
+      "weighted_mention_count": 2.8,
+      "unique_sources": [
+        "@OndoFinance",
+        "@dinari_io"
+      ],
+      "mentions": [
+        {
+          "source": "@dinari_io",
+          "url": "https://x.com/dinari_io/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T22:00:00Z",
+          "context": "se. 150+ US equities including $AAPL $TSLA $NVDA $SPY $MSTR $GOOGL. New: Flow Traders providing market making. LayerZero cross"
+        },
+        {
+          "source": "@OndoFinance",
+          "url": "https://x.com/OndoFinance/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T20:00:00Z",
+          "context": "liquidX via @LayerZero_Core including $SPY $QQQ $NVDA $TSLA $GOOGL. 260+ stocks/ETFs now live across Solana, Ethereum, and BNB"
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "mention_count": 2,
+      "weighted_mention_count": 2.8,
+      "unique_sources": [
+        "@OndoFinance",
+        "@dinari_io"
+      ],
+      "mentions": [
+        {
+          "source": "@dinari_io",
+          "url": "https://x.com/dinari_io/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T22:00:00Z",
+          "context": "ding on Arbitrum and Base. 150+ US equities including $AAPL $TSLA $NVDA $SPY $MSTR $GOOGL. New: Flow Traders providing market"
+        },
+        {
+          "source": "@OndoFinance",
+          "url": "https://x.com/OndoFinance/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T20:00:00Z",
+          "context": "@HyperliquidX via @LayerZero_Core including $SPY $QQQ $NVDA $TSLA $GOOGL. 260+ stocks/ETFs now live across Solana, Ethereum,"
+        }
+      ]
+    },
+    {
+      "ticker": "BKSY",
+      "mention_count": 2,
+      "weighted_mention_count": 2.5,
+      "unique_sources": [
+        "@InTheAssembly",
+        "@unusual_whales"
+      ],
+      "mentions": [
+        {
+          "source": "@InTheAssembly",
+          "url": "https://x.com/InTheAssembly/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T15:00:00Z",
+          "context": "story. Watch the satellite / launch comp basket: $RKLB $RDW $BKSY $LMT for sympathy moves into the roadshow."
+        },
+        {
+          "source": "@unusual_whales",
+          "url": "https://x.com/unusual_whales/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T13:30:00Z",
+          "context": "n $RKLB ahead of $SPCX roadshow. $RDW unusual put activity. $BKSY calls also hot. Space basket positioning ahead of the Space"
+        }
+      ]
+    },
+    {
+      "ticker": "RDW",
+      "mention_count": 2,
+      "weighted_mention_count": 2.5,
+      "unique_sources": [
+        "@InTheAssembly",
+        "@unusual_whales"
+      ],
+      "mentions": [
+        {
+          "source": "@InTheAssembly",
+          "url": "https://x.com/InTheAssembly/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T15:00:00Z",
+          "context": "in history. Watch the satellite / launch comp basket: $RKLB $RDW $BKSY $LMT for sympathy moves into the roadshow."
+        },
+        {
+          "source": "@unusual_whales",
+          "url": "https://x.com/unusual_whales/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T13:30:00Z",
+          "context": "Massive call sweep on $RKLB ahead of $SPCX roadshow. $RDW unusual put activity. $BKSY calls also hot. Space basket po"
+        }
+      ]
+    },
+    {
+      "ticker": "LMT",
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@InTheAssembly"
+      ],
+      "mentions": [
+        {
+          "source": "@InTheAssembly",
+          "url": "https://x.com/InTheAssembly/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T15:00:00Z",
+          "context": "Watch the satellite / launch comp basket: $RKLB $RDW $BKSY $LMT for sympathy moves into the roadshow."
+        }
+      ]
+    },
+    {
+      "ticker": "WDC",
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@Doug_OLaughlin"
+      ],
+      "mentions": [
+        {
+          "source": "@Doug_OLaughlin",
+          "url": "https://x.com/Doug_OLaughlin/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T14:00:00Z",
+          "context": "t underrated. Memory cycle still mixed — $MU recovering but $WDC and Kioxia tracking weaker. Watching $AMD on the agentic AI"
+        }
+      ]
+    },
+    {
+      "ticker": "MU",
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@Doug_OLaughlin"
+      ],
+      "mentions": [
+        {
+          "source": "@Doug_OLaughlin",
+          "url": "https://x.com/Doug_OLaughlin/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T14:00:00Z",
+          "context": "lass. $TSEM the most underrated. Memory cycle still mixed — $MU recovering but $WDC and Kioxia tracking weaker. Watching $A"
+        }
+      ]
+    },
+    {
+      "ticker": "TSEM",
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@Doug_OLaughlin"
+      ],
+      "mentions": [
+        {
+          "source": "@Doug_OLaughlin",
+          "url": "https://x.com/Doug_OLaughlin/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T14:00:00Z",
+          "context": "semis quality screen. $AVGO and $NVDA remain best-in-class. $TSEM the most underrated. Memory cycle still mixed — $MU recover"
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@Doug_OLaughlin"
+      ],
+      "mentions": [
+        {
+          "source": "@Doug_OLaughlin",
+          "url": "https://x.com/Doug_OLaughlin/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T14:00:00Z",
+          "context": "Updating the semis quality screen. $AVGO and $NVDA remain best-in-class. $TSEM the most underrated."
+        }
+      ]
+    },
+    {
+      "ticker": "STX",
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@SemiAnalysis_"
+      ],
+      "mentions": [
+        {
+          "source": "@SemiAnalysis_",
+          "url": "https://x.com/SemiAnalysis_/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T10:00:00Z",
+          "context": "beneficiary. GTC '26 saw $NVDA's Groq LPX, Vera ETL256, and STX systems land. Pure GPU thesis becoming more nuanced."
+        }
+      ]
+    },
+    {
+      "ticker": "MSTR",
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@dinari_io"
+      ],
+      "mentions": [
+        {
+          "source": "@dinari_io",
+          "url": "https://x.com/dinari_io/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T22:00:00Z",
+          "context": "and Base. 150+ US equities including $AAPL $TSLA $NVDA $SPY $MSTR $GOOGL. New: Flow Traders providing market making. LayerZer"
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@dinari_io"
+      ],
+      "mentions": [
+        {
+          "source": "@dinari_io",
+          "url": "https://x.com/dinari_io/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T22:00:00Z",
+          "context": "/7 trading on Arbitrum and Base. 150+ US equities including $AAPL $TSLA $NVDA $SPY $MSTR $GOOGL. New: Flow Traders providing"
+        }
+      ]
+    },
+    {
+      "ticker": "GHM",
+      "mention_count": 1,
+      "weighted_mention_count": 1.3,
+      "unique_sources": [
+        "@hkuppy"
+      ],
+      "mentions": [
+        {
+          "source": "@hkuppy",
+          "url": "https://x.com/hkuppy/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T19:00:00Z",
+          "context": "the IPO sucker capital come from? I'm looking at $RKLB and $GHM not the parent."
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "mention_count": 1,
+      "weighted_mention_count": 1.3,
+      "unique_sources": [
+        "@OndoFinance"
+      ],
+      "mentions": [
+        {
+          "source": "@OndoFinance",
+          "url": "https://x.com/OndoFinance/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T20:00:00Z",
+          "context": "quities to @HyperliquidX via @LayerZero_Core including $SPY $QQQ $NVDA $TSLA $GOOGL. 260+ stocks/ETFs now live across Solana"
+        }
+      ]
+    }
+  ]
+}

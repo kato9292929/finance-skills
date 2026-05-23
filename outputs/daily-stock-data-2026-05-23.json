@@ -1,0 +1,895 @@
+{
+  "date": "2026-05-23",
+  "generated_at": "2026-05-23T16:23:40Z",
+  "schema_version": "1.0.0",
+  "disclaimer": "Data API only. Not investment advice. xStocks/Backpack IPOs Onchain have geographic eligibility requirements; verify on the platform.",
+  "ticker_count": 19,
+  "tickers": [
+    {
+      "ticker": "NVDA",
+      "company_name": "NVIDIA Corporation",
+      "listing_market": "NASDAQ",
+      "is_listed": true,
+      "price_usd": "215.33",
+      "price_change_24h_pct": null,
+      "market_cap_usd": "5340000000000",
+      "volume_24h": null,
+      "earnings_date_next": null,
+      "mentions_24h": [
+        {
+          "source": "@Doug_OLaughlin",
+          "url": "https://x.com/Doug_OLaughlin/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T14:00:00Z",
+          "context": "Updating the semis quality screen. $AVGO and $NVDA remain best-in-class. $TSEM the most underrated. Memory cyc"
+        },
+        {
+          "source": "@SemiAnalysis_",
+          "url": "https://x.com/SemiAnalysis_/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T10:00:00Z",
+          "context": "und. $AMD EPYC is the cleanest x86 beneficiary. GTC '26 saw $NVDA's Groq LPX, Vera ETL256, and STX systems land. Pure GPU the"
+        },
+        {
+          "source": "@dinari_io",
+          "url": "https://x.com/dinari_io/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T22:00:00Z",
+          "context": "n Arbitrum and Base. 150+ US equities including $AAPL $TSLA $NVDA $SPY $MSTR $GOOGL. New: Flow Traders providing market makin"
+        },
+        {
+          "source": "@OndoFinance",
+          "url": "https://x.com/OndoFinance/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T20:00:00Z",
+          "context": "es to @HyperliquidX via @LayerZero_Core including $SPY $QQQ $NVDA $TSLA $GOOGL. 260+ stocks/ETFs now live across Solana, Ethe"
+        }
+      ],
+      "mention_count": 4,
+      "weighted_mention_count": 5.8,
+      "unique_sources": [
+        "@Doug_OLaughlin",
+        "@OndoFinance",
+        "@SemiAnalysis_",
+        "@dinari_io"
+      ],
+      "tokenized_versions": [
+        {
+          "issuer": "Backed Finance (xStocks)",
+          "issuer_id": "xstocks",
+          "symbol": "NVDAx",
+          "chain": "Solana",
+          "model": "Freely Transferable, 1:1 backed by underlying held by regulated custodian",
+          "venues": [
+            "Kraken",
+            "Bybit",
+            "Gate.io",
+            "Jupiter",
+            "Raydium",
+            "Orca",
+            "360X (Deutsche Börse)"
+          ],
+          "geo_restrictions": [
+            "US",
+            "UK",
+            "CA",
+            "AU",
+            "EU"
+          ]
+        },
+        {
+          "issuer": "Backed Finance (Base)",
+          "issuer_id": "backed_base",
+          "symbol": "bNVDA",
+          "chain": "Base",
+          "model": "Freely Transferable, 1:1 backed",
+          "venues": [
+            "Aerodrome",
+            "CoW Swap"
+          ],
+          "geo_restrictions": [
+            "US",
+            "UK",
+            "CA",
+            "AU",
+            "EU"
+          ]
+        },
+        {
+          "issuer": "Dinari (dShares)",
+          "issuer_id": "dinari",
+          "symbol": "dNVDA",
+          "chain": "Arbitrum",
+          "model": "Permissioned (verified wallets only), 1:1 backed, dividends paid in USD+ stablecoin",
+          "venues": [],
+          "geo_restrictions": []
+        }
+      ],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    },
+    {
+      "ticker": "SPCX",
+      "company_name": "Space Exploration Technologies Corp (SpaceX)",
+      "listing_market": "NASDAQ (planned 2026-06-12)",
+      "is_listed": false,
+      "price_usd": null,
+      "price_change_24h_pct": null,
+      "market_cap_usd": null,
+      "volume_24h": null,
+      "earnings_date_next": null,
+      "mentions_24h": [
+        {
+          "source": "@InTheAssembly",
+          "url": "https://x.com/InTheAssembly/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T15:00:00Z",
+          "context": "SpaceX has filed its S-1. Listing as $SPCX on Nasdaq targeting June 12, $1.75T valuation, $75B raise."
+        },
+        {
+          "source": "@KobeissiLetter",
+          "url": "https://x.com/KobeissiLetter/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T18:30:00Z",
+          "context": "$SPCX prospectus is out. SpaceX 2025 revenue $18.6B (+33% YoY), Q"
+        },
+        {
+          "source": "@hkuppy",
+          "url": "https://x.com/hkuppy/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T19:00:00Z",
+          "context": "Everyone is obsessed with $SPCX. The interesting trade is the secondary read-through: who g"
+        },
+        {
+          "source": "@unusual_whales",
+          "url": "https://x.com/unusual_whales/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T13:30:00Z",
+          "context": "Massive call sweep on $RKLB ahead of $SPCX roadshow. $RDW unusual put activity. $BKSY calls also hot."
+        }
+      ],
+      "mention_count": 4,
+      "weighted_mention_count": 4.8,
+      "unique_sources": [
+        "@InTheAssembly",
+        "@KobeissiLetter",
+        "@hkuppy",
+        "@unusual_whales"
+      ],
+      "tokenized_versions": [],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": [],
+      "unlisted_context": {
+        "ipo_status": "S-1 filed 2026-05-20. Roadshow begins 2026-06-04. Pricing 2026-06-11. Listing 2026-06-12.",
+        "estimated_valuation_usd": "1750000000000",
+        "estimated_raise_usd": "75000000000",
+        "estimated_psr": "Approximately 90x sales at target valuation",
+        "key_financials_2025": {
+          "revenue": "18.6B",
+          "revenue_growth_yoy": "+33%",
+          "starlink_q1_2026_revenue": "3.26B",
+          "starlink_subscribers_2026_q1": "10.3M",
+          "q1_2026_revenue": "4.69B",
+          "q1_2026_net_loss": "-4.3B"
+        },
+        "governance_notes": "Elon Musk retains 85.1% voting control via super-voting share class.",
+        "notes": "Largest IPO in history if priced at target. Mentioned by @InTheAssembly, @KobeissiLetter, @hkuppy, @unusual_whales in the 24h window.",
+        "sources": [
+          "https://www.cnbc.com/2026/05/20/spacex-ipo-live-updates.html",
+          "https://www.tradingkey.com/analysis/stocks/us-stocks/261904604-spacex-ipo-spcx-date-set-for-june-12-175-trillion-valuation-tradingkey",
+          "https://fortune.com/2026/05/20/spacex-finally-files-ipo-prospectus-reveals-revenue-is-up-but-losses-are-too/",
+          "https://seekingalpha.com/article/4908034-spacex-ipo-what-you-need-to-know"
+        ]
+      }
+    },
+    {
+      "ticker": "RKLB",
+      "company_name": "Rocket Lab Corporation",
+      "listing_market": "NASDAQ",
+      "is_listed": true,
+      "price_usd": "134.15",
+      "price_change_24h_pct": null,
+      "market_cap_usd": null,
+      "volume_24h": null,
+      "earnings_date_next": null,
+      "mentions_24h": [
+        {
+          "source": "@InTheAssembly",
+          "url": "https://x.com/InTheAssembly/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T15:00:00Z",
+          "context": "t IPO in history. Watch the satellite / launch comp basket: $RKLB $RDW $BKSY $LMT for sympathy moves into the roadshow."
+        },
+        {
+          "source": "@hkuppy",
+          "url": "https://x.com/hkuppy/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T19:00:00Z",
+          "context": "where does the IPO sucker capital come from? I'm looking at $RKLB and $GHM not the parent."
+        },
+        {
+          "source": "@unusual_whales",
+          "url": "https://x.com/unusual_whales/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T13:30:00Z",
+          "context": "Massive call sweep on $RKLB ahead of $SPCX roadshow. $RDW unusual put activity. $BKSY c"
+        }
+      ],
+      "mention_count": 3,
+      "weighted_mention_count": 3.8,
+      "unique_sources": [
+        "@InTheAssembly",
+        "@hkuppy",
+        "@unusual_whales"
+      ],
+      "tokenized_versions": [],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    },
+    {
+      "ticker": "AMD",
+      "company_name": "Advanced Micro Devices, Inc.",
+      "listing_market": "NASDAQ",
+      "is_listed": true,
+      "price_usd": "452.50",
+      "price_change_24h_pct": null,
+      "market_cap_usd": null,
+      "volume_24h": null,
+      "earnings_date_next": null,
+      "mentions_24h": [
+        {
+          "source": "@Doug_OLaughlin",
+          "url": "https://x.com/Doug_OLaughlin/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T14:00:00Z",
+          "context": "MU recovering but $WDC and Kioxia tracking weaker. Watching $AMD on the agentic AI CPU thesis from SemiAnalysis."
+        },
+        {
+          "source": "@SemiAnalysis_",
+          "url": "https://x.com/SemiAnalysis_/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T10:00:00Z",
+          "context": "are back. 50-90% of agentic workload latency is CPU-bound. $AMD EPYC is the cleanest x86 beneficiary. GTC '26 saw $NVDA's G"
+        }
+      ],
+      "mention_count": 2,
+      "weighted_mention_count": 3.0,
+      "unique_sources": [
+        "@Doug_OLaughlin",
+        "@SemiAnalysis_"
+      ],
+      "tokenized_versions": [],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    },
+    {
+      "ticker": "SPY",
+      "company_name": "SPDR S&P 500 ETF Trust",
+      "listing_market": "NYSE Arca",
+      "is_listed": true,
+      "price_usd": null,
+      "price_change_24h_pct": null,
+      "market_cap_usd": null,
+      "volume_24h": null,
+      "earnings_date_next": null,
+      "mentions_24h": [
+        {
+          "source": "@dinari_io",
+          "url": "https://x.com/dinari_io/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T22:00:00Z",
+          "context": "trum and Base. 150+ US equities including $AAPL $TSLA $NVDA $SPY $MSTR $GOOGL. New: Flow Traders providing market making. La"
+        },
+        {
+          "source": "@OndoFinance",
+          "url": "https://x.com/OndoFinance/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T20:00:00Z",
+          "context": "zed equities to @HyperliquidX via @LayerZero_Core including $SPY $QQQ $NVDA $TSLA $GOOGL. 260+ stocks/ETFs now live across S"
+        }
+      ],
+      "mention_count": 2,
+      "weighted_mention_count": 2.8,
+      "unique_sources": [
+        "@OndoFinance",
+        "@dinari_io"
+      ],
+      "tokenized_versions": [
+        {
+          "issuer": "Dinari (dShares)",
+          "issuer_id": "dinari",
+          "symbol": "dSPY",
+          "chain": "Arbitrum",
+          "model": "Permissioned (verified wallets only), 1:1 backed, dividends paid in USD+ stablecoin",
+          "venues": [],
+          "geo_restrictions": []
+        }
+      ],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    },
+    {
+      "ticker": "GOOGL",
+      "company_name": "Alphabet Inc. Class A",
+      "listing_market": "NASDAQ",
+      "is_listed": true,
+      "price_usd": "349.94",
+      "price_change_24h_pct": "+0.05",
+      "market_cap_usd": null,
+      "volume_24h": null,
+      "earnings_date_next": null,
+      "mentions_24h": [
+        {
+          "source": "@dinari_io",
+          "url": "https://x.com/dinari_io/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T22:00:00Z",
+          "context": "se. 150+ US equities including $AAPL $TSLA $NVDA $SPY $MSTR $GOOGL. New: Flow Traders providing market making. LayerZero cross"
+        },
+        {
+          "source": "@OndoFinance",
+          "url": "https://x.com/OndoFinance/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T20:00:00Z",
+          "context": "liquidX via @LayerZero_Core including $SPY $QQQ $NVDA $TSLA $GOOGL. 260+ stocks/ETFs now live across Solana, Ethereum, and BNB"
+        }
+      ],
+      "mention_count": 2,
+      "weighted_mention_count": 2.8,
+      "unique_sources": [
+        "@OndoFinance",
+        "@dinari_io"
+      ],
+      "tokenized_versions": [
+        {
+          "issuer": "Backed Finance (xStocks)",
+          "issuer_id": "xstocks",
+          "symbol": "GOOGLx",
+          "chain": "Solana",
+          "model": "Freely Transferable, 1:1 backed by underlying held by regulated custodian",
+          "venues": [
+            "Kraken",
+            "Bybit",
+            "Gate.io",
+            "Jupiter",
+            "Raydium",
+            "Orca",
+            "360X (Deutsche Börse)"
+          ],
+          "geo_restrictions": [
+            "US",
+            "UK",
+            "CA",
+            "AU",
+            "EU"
+          ]
+        },
+        {
+          "issuer": "Backed Finance (Base)",
+          "issuer_id": "backed_base",
+          "symbol": "bGOOGL",
+          "chain": "Base",
+          "model": "Freely Transferable, 1:1 backed",
+          "venues": [
+            "Aerodrome",
+            "CoW Swap"
+          ],
+          "geo_restrictions": [
+            "US",
+            "UK",
+            "CA",
+            "AU",
+            "EU"
+          ]
+        },
+        {
+          "issuer": "Dinari (dShares)",
+          "issuer_id": "dinari",
+          "symbol": "dGOOGL",
+          "chain": "Arbitrum",
+          "model": "Permissioned (verified wallets only), 1:1 backed, dividends paid in USD+ stablecoin",
+          "venues": [],
+          "geo_restrictions": []
+        }
+      ],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    },
+    {
+      "ticker": "TSLA",
+      "company_name": "Tesla, Inc.",
+      "listing_market": "NASDAQ",
+      "is_listed": true,
+      "price_usd": "372.80",
+      "price_change_24h_pct": "-0.86",
+      "market_cap_usd": null,
+      "volume_24h": null,
+      "earnings_date_next": null,
+      "mentions_24h": [
+        {
+          "source": "@dinari_io",
+          "url": "https://x.com/dinari_io/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T22:00:00Z",
+          "context": "ding on Arbitrum and Base. 150+ US equities including $AAPL $TSLA $NVDA $SPY $MSTR $GOOGL. New: Flow Traders providing market"
+        },
+        {
+          "source": "@OndoFinance",
+          "url": "https://x.com/OndoFinance/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T20:00:00Z",
+          "context": "@HyperliquidX via @LayerZero_Core including $SPY $QQQ $NVDA $TSLA $GOOGL. 260+ stocks/ETFs now live across Solana, Ethereum,"
+        }
+      ],
+      "mention_count": 2,
+      "weighted_mention_count": 2.8,
+      "unique_sources": [
+        "@OndoFinance",
+        "@dinari_io"
+      ],
+      "tokenized_versions": [
+        {
+          "issuer": "Backed Finance (xStocks)",
+          "issuer_id": "xstocks",
+          "symbol": "TSLAx",
+          "chain": "Solana",
+          "model": "Freely Transferable, 1:1 backed by underlying held by regulated custodian",
+          "venues": [
+            "Kraken",
+            "Bybit",
+            "Gate.io",
+            "Jupiter",
+            "Raydium",
+            "Orca",
+            "360X (Deutsche Börse)"
+          ],
+          "geo_restrictions": [
+            "US",
+            "UK",
+            "CA",
+            "AU",
+            "EU"
+          ]
+        },
+        {
+          "issuer": "Backed Finance (Base)",
+          "issuer_id": "backed_base",
+          "symbol": "bTSLA",
+          "chain": "Base",
+          "model": "Freely Transferable, 1:1 backed",
+          "venues": [
+            "Aerodrome",
+            "CoW Swap"
+          ],
+          "geo_restrictions": [
+            "US",
+            "UK",
+            "CA",
+            "AU",
+            "EU"
+          ]
+        },
+        {
+          "issuer": "Dinari (dShares)",
+          "issuer_id": "dinari",
+          "symbol": "dTSLA",
+          "chain": "Arbitrum",
+          "model": "Permissioned (verified wallets only), 1:1 backed, dividends paid in USD+ stablecoin",
+          "venues": [],
+          "geo_restrictions": []
+        }
+      ],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    },
+    {
+      "ticker": "BKSY",
+      "company_name": "BlackSky Technology Inc.",
+      "listing_market": "NYSE",
+      "is_listed": true,
+      "price_usd": null,
+      "price_change_24h_pct": "+9.16",
+      "market_cap_usd": null,
+      "volume_24h": null,
+      "earnings_date_next": null,
+      "mentions_24h": [
+        {
+          "source": "@InTheAssembly",
+          "url": "https://x.com/InTheAssembly/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T15:00:00Z",
+          "context": "story. Watch the satellite / launch comp basket: $RKLB $RDW $BKSY $LMT for sympathy moves into the roadshow."
+        },
+        {
+          "source": "@unusual_whales",
+          "url": "https://x.com/unusual_whales/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T13:30:00Z",
+          "context": "n $RKLB ahead of $SPCX roadshow. $RDW unusual put activity. $BKSY calls also hot. Space basket positioning ahead of the Space"
+        }
+      ],
+      "mention_count": 2,
+      "weighted_mention_count": 2.5,
+      "unique_sources": [
+        "@InTheAssembly",
+        "@unusual_whales"
+      ],
+      "tokenized_versions": [],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    },
+    {
+      "ticker": "RDW",
+      "company_name": "Redwire Corporation",
+      "listing_market": "NYSE",
+      "is_listed": true,
+      "price_usd": null,
+      "price_change_24h_pct": "+0.79",
+      "market_cap_usd": null,
+      "volume_24h": null,
+      "earnings_date_next": null,
+      "mentions_24h": [
+        {
+          "source": "@InTheAssembly",
+          "url": "https://x.com/InTheAssembly/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T15:00:00Z",
+          "context": "in history. Watch the satellite / launch comp basket: $RKLB $RDW $BKSY $LMT for sympathy moves into the roadshow."
+        },
+        {
+          "source": "@unusual_whales",
+          "url": "https://x.com/unusual_whales/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T13:30:00Z",
+          "context": "Massive call sweep on $RKLB ahead of $SPCX roadshow. $RDW unusual put activity. $BKSY calls also hot. Space basket po"
+        }
+      ],
+      "mention_count": 2,
+      "weighted_mention_count": 2.5,
+      "unique_sources": [
+        "@InTheAssembly",
+        "@unusual_whales"
+      ],
+      "tokenized_versions": [],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    },
+    {
+      "ticker": "LMT",
+      "company_name": "Lockheed Martin Corporation",
+      "listing_market": "NYSE",
+      "is_listed": true,
+      "price_usd": null,
+      "price_change_24h_pct": null,
+      "market_cap_usd": null,
+      "volume_24h": null,
+      "earnings_date_next": null,
+      "mentions_24h": [
+        {
+          "source": "@InTheAssembly",
+          "url": "https://x.com/InTheAssembly/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T15:00:00Z",
+          "context": "Watch the satellite / launch comp basket: $RKLB $RDW $BKSY $LMT for sympathy moves into the roadshow."
+        }
+      ],
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@InTheAssembly"
+      ],
+      "tokenized_versions": [],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    },
+    {
+      "ticker": "WDC",
+      "company_name": "Western Digital Corporation",
+      "listing_market": "NASDAQ",
+      "is_listed": true,
+      "price_usd": null,
+      "price_change_24h_pct": null,
+      "market_cap_usd": null,
+      "volume_24h": null,
+      "earnings_date_next": null,
+      "mentions_24h": [
+        {
+          "source": "@Doug_OLaughlin",
+          "url": "https://x.com/Doug_OLaughlin/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T14:00:00Z",
+          "context": "t underrated. Memory cycle still mixed — $MU recovering but $WDC and Kioxia tracking weaker. Watching $AMD on the agentic AI"
+        }
+      ],
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@Doug_OLaughlin"
+      ],
+      "tokenized_versions": [],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    },
+    {
+      "ticker": "MU",
+      "company_name": "Micron Technology, Inc.",
+      "listing_market": "NASDAQ",
+      "is_listed": true,
+      "price_usd": "751.00",
+      "price_change_24h_pct": null,
+      "market_cap_usd": "854390000000",
+      "volume_24h": null,
+      "earnings_date_next": null,
+      "mentions_24h": [
+        {
+          "source": "@Doug_OLaughlin",
+          "url": "https://x.com/Doug_OLaughlin/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T14:00:00Z",
+          "context": "lass. $TSEM the most underrated. Memory cycle still mixed — $MU recovering but $WDC and Kioxia tracking weaker. Watching $A"
+        }
+      ],
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@Doug_OLaughlin"
+      ],
+      "tokenized_versions": [],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    },
+    {
+      "ticker": "TSEM",
+      "company_name": "Tower Semiconductor Ltd",
+      "listing_market": "NASDAQ",
+      "is_listed": true,
+      "price_usd": null,
+      "price_change_24h_pct": null,
+      "market_cap_usd": null,
+      "volume_24h": null,
+      "earnings_date_next": null,
+      "mentions_24h": [
+        {
+          "source": "@Doug_OLaughlin",
+          "url": "https://x.com/Doug_OLaughlin/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T14:00:00Z",
+          "context": "semis quality screen. $AVGO and $NVDA remain best-in-class. $TSEM the most underrated. Memory cycle still mixed — $MU recover"
+        }
+      ],
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@Doug_OLaughlin"
+      ],
+      "tokenized_versions": [],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    },
+    {
+      "ticker": "AVGO",
+      "company_name": "Broadcom Inc.",
+      "listing_market": "NASDAQ",
+      "is_listed": true,
+      "price_usd": "414.57",
+      "price_change_24h_pct": null,
+      "market_cap_usd": "1960000000000",
+      "volume_24h": null,
+      "earnings_date_next": null,
+      "mentions_24h": [
+        {
+          "source": "@Doug_OLaughlin",
+          "url": "https://x.com/Doug_OLaughlin/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T14:00:00Z",
+          "context": "Updating the semis quality screen. $AVGO and $NVDA remain best-in-class. $TSEM the most underrated."
+        }
+      ],
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@Doug_OLaughlin"
+      ],
+      "tokenized_versions": [],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    },
+    {
+      "ticker": "STX",
+      "company_name": "Seagate Technology Holdings PLC",
+      "listing_market": "NASDAQ",
+      "is_listed": true,
+      "price_usd": null,
+      "price_change_24h_pct": null,
+      "market_cap_usd": null,
+      "volume_24h": null,
+      "earnings_date_next": null,
+      "mentions_24h": [
+        {
+          "source": "@SemiAnalysis_",
+          "url": "https://x.com/SemiAnalysis_/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-23T10:00:00Z",
+          "context": "beneficiary. GTC '26 saw $NVDA's Groq LPX, Vera ETL256, and STX systems land. Pure GPU thesis becoming more nuanced."
+        }
+      ],
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@SemiAnalysis_"
+      ],
+      "tokenized_versions": [],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    },
+    {
+      "ticker": "MSTR",
+      "company_name": "Strategy Inc (fka MicroStrategy)",
+      "listing_market": "NASDAQ",
+      "is_listed": true,
+      "price_usd": "159.89",
+      "price_change_24h_pct": "-3.01",
+      "market_cap_usd": null,
+      "volume_24h": null,
+      "earnings_date_next": null,
+      "mentions_24h": [
+        {
+          "source": "@dinari_io",
+          "url": "https://x.com/dinari_io/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T22:00:00Z",
+          "context": "and Base. 150+ US equities including $AAPL $TSLA $NVDA $SPY $MSTR $GOOGL. New: Flow Traders providing market making. LayerZer"
+        }
+      ],
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@dinari_io"
+      ],
+      "tokenized_versions": [
+        {
+          "issuer": "Backed Finance (xStocks)",
+          "issuer_id": "xstocks",
+          "symbol": "MSTRx",
+          "chain": "Solana",
+          "model": "Freely Transferable, 1:1 backed by underlying held by regulated custodian",
+          "venues": [
+            "Kraken",
+            "Bybit",
+            "Gate.io",
+            "Jupiter",
+            "Raydium",
+            "Orca",
+            "360X (Deutsche Börse)"
+          ],
+          "geo_restrictions": [
+            "US",
+            "UK",
+            "CA",
+            "AU",
+            "EU"
+          ]
+        },
+        {
+          "issuer": "Dinari (dShares)",
+          "issuer_id": "dinari",
+          "symbol": "dMSTR",
+          "chain": "Arbitrum",
+          "model": "Permissioned (verified wallets only), 1:1 backed, dividends paid in USD+ stablecoin",
+          "venues": [],
+          "geo_restrictions": []
+        }
+      ],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    },
+    {
+      "ticker": "AAPL",
+      "company_name": "Apple Inc.",
+      "listing_market": "NASDAQ",
+      "is_listed": true,
+      "price_usd": "308.41",
+      "price_change_24h_pct": null,
+      "market_cap_usd": null,
+      "volume_24h": null,
+      "earnings_date_next": null,
+      "mentions_24h": [
+        {
+          "source": "@dinari_io",
+          "url": "https://x.com/dinari_io/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T22:00:00Z",
+          "context": "/7 trading on Arbitrum and Base. 150+ US equities including $AAPL $TSLA $NVDA $SPY $MSTR $GOOGL. New: Flow Traders providing"
+        }
+      ],
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@dinari_io"
+      ],
+      "tokenized_versions": [
+        {
+          "issuer": "Backed Finance (xStocks)",
+          "issuer_id": "xstocks",
+          "symbol": "AAPLx",
+          "chain": "Solana",
+          "model": "Freely Transferable, 1:1 backed by underlying held by regulated custodian",
+          "venues": [
+            "Kraken",
+            "Bybit",
+            "Gate.io",
+            "Jupiter",
+            "Raydium",
+            "Orca",
+            "360X (Deutsche Börse)"
+          ],
+          "geo_restrictions": [
+            "US",
+            "UK",
+            "CA",
+            "AU",
+            "EU"
+          ]
+        },
+        {
+          "issuer": "Dinari (dShares)",
+          "issuer_id": "dinari",
+          "symbol": "dAAPL",
+          "chain": "Arbitrum",
+          "model": "Permissioned (verified wallets only), 1:1 backed, dividends paid in USD+ stablecoin",
+          "venues": [],
+          "geo_restrictions": []
+        }
+      ],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    },
+    {
+      "ticker": "GHM",
+      "company_name": "Graham Corporation",
+      "listing_market": "NYSE",
+      "is_listed": true,
+      "price_usd": null,
+      "price_change_24h_pct": null,
+      "market_cap_usd": null,
+      "volume_24h": null,
+      "earnings_date_next": null,
+      "mentions_24h": [
+        {
+          "source": "@hkuppy",
+          "url": "https://x.com/hkuppy/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T19:00:00Z",
+          "context": "the IPO sucker capital come from? I'm looking at $RKLB and $GHM not the parent."
+        }
+      ],
+      "mention_count": 1,
+      "weighted_mention_count": 1.3,
+      "unique_sources": [
+        "@hkuppy"
+      ],
+      "tokenized_versions": [],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    },
+    {
+      "ticker": "QQQ",
+      "company_name": "Invesco QQQ Trust",
+      "listing_market": "NASDAQ",
+      "is_listed": true,
+      "price_usd": "717.54",
+      "price_change_24h_pct": "+0.42",
+      "market_cap_usd": null,
+      "volume_24h": null,
+      "earnings_date_next": null,
+      "mentions_24h": [
+        {
+          "source": "@OndoFinance",
+          "url": "https://x.com/OndoFinance/status/SECONDARY_RECONSTRUCTED",
+          "timestamp": "2026-05-22T20:00:00Z",
+          "context": "quities to @HyperliquidX via @LayerZero_Core including $SPY $QQQ $NVDA $TSLA $GOOGL. 260+ stocks/ETFs now live across Solana"
+        }
+      ],
+      "mention_count": 1,
+      "weighted_mention_count": 1.3,
+      "unique_sources": [
+        "@OndoFinance"
+      ],
+      "tokenized_versions": [
+        {
+          "issuer": "Backed Finance (xStocks)",
+          "issuer_id": "xstocks",
+          "symbol": "QQQx",
+          "chain": "Solana",
+          "model": "Freely Transferable, 1:1 backed by underlying held by regulated custodian",
+          "venues": [
+            "Kraken",
+            "Bybit",
+            "Gate.io",
+            "Jupiter",
+            "Raydium",
+            "Orca",
+            "360X (Deutsche Börse)"
+          ],
+          "geo_restrictions": [
+            "US",
+            "UK",
+            "CA",
+            "AU",
+            "EU"
+          ]
+        }
+      ],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    }
+  ]
+}

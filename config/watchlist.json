@@ -133,7 +133,8 @@
       "ATH", "ATL", "ATM", "FOMO", "FUD", "HODL", "YOLO",
       "NYSE", "AMEX", "NASDAQ", "SEC", "FDIC", "FED", "ECB", "BOJ", "PBOC",
       "QE", "QT", "GDP", "CPI", "PPI", "PCE", "ISM", "PMI",
-      "RT", "DM"
+      "RT", "DM",
+      "CPU", "GPU", "EPYC", "GTC", "LPX", "BNB", "SOL", "TPU", "NPU", "DPU", "ASIC", "FPGA", "HBM", "SSD", "HDD", "DRAM", "NAND"
     ],
     "exclude_dollar_amount_regex": "\\$\\d",
     "min_mention_count_to_include": 1

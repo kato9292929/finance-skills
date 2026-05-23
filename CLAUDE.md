@@ -182,12 +182,14 @@ L3 は status トラッキングのみ (実データ統合は対象外、ニュ�
 
 - [x] Step 1: 旧プロジェクト archive ブランチ退避
 - [x] Step 2: 新 CLAUDE.md 作成 (本ファイル)
-- [ ] Step 3: twitter Skill セットアップ + `config/watchlist.json`
-- [ ] Step 4: ticker 抽出ロジック (`scripts/extract_tickers.py`)
-- [ ] Step 5: トークン化発行体リスト (`data/tokenized-issuers.json`)
-- [ ] Step 6: 一次発行情報 (`data/primary-issuance.json`)
-- [ ] Step 7: 統合 JSON ビルダー (`scripts/build_daily_dataset.py`)
-- [ ] Step 8: 2026-05-23 test run (`analyses/2026-05-23-test-run.md`)
+- [x] Step 3: `config/watchlist.json` (18 アカウント + 67 exclude_words)。twitter Skill OAuth は Mac で別途実施予定 (リモートコンテナでは不可)
+- [x] Step 4: ticker 抽出ロジック (`scripts/extract_tickers.py`)
+- [x] Step 5: トークン化発行体リスト (`data/tokenized-issuers.json` — xStocks 131 / Backed Base / Dinari 200 / Ondo 260)
+- [x] Step 6: 一次発行情報 (`data/primary-issuance.json` — Backpack IPOs Onchain × Superstate)
+- [x] Step 7: 統合 JSON ビルダー (`scripts/build_daily_dataset.py`) + enrichment (`scripts/enrich_tickers.py` with yfinance / manual backends)
+- [x] Step 8: 2026-05-23 test run (実データ pass、`analyses/2026-05-23-test-run.md`)
+- [ ] Step 9 (来週以降): Mac で twitter Skill OAuth → `data/raw-posts/<date>.json` 自動取得運用
+- [ ] Step 10 (別 repo): x402 endpoint (Vercel)
 
 ## 注意事項
 

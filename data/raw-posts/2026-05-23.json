@@ -1,0 +1,131 @@
+[
+  {
+    "id": "ws-2026-05-23-001",
+    "author": "@InTheAssembly",
+    "text": "SpaceX has filed its S-1. Listing as $SPCX on Nasdaq targeting June 12, $1.75T valuation, $75B raise. This is the biggest IPO in history. Watch the satellite / launch comp basket: $RKLB $RDW $BKSY $LMT for sympathy moves into the roadshow.",
+    "url": "https://x.com/InTheAssembly/status/SECONDARY_RECONSTRUCTED",
+    "extraction_method": "websearch_secondary_source",
+    "source_articles": [
+      "https://www.cnbc.com/2026/05/20/spacex-ipo-live-updates.html",
+      "https://www.tradingkey.com/analysis/stocks/us-stocks/261904604-spacex-ipo-spcx-date-set-for-june-12-175-trillion-valuation-tradingkey"
+    ],
+    "notes": "Reconstructed. The Assembly's beat = space/defense small caps; SPCX S-1 was the dominant signal May 20-22.",
+    "created_at": "2026-05-22T15:00:00Z"
+  },
+  {
+    "id": "ws-2026-05-23-002",
+    "author": "@KobeissiLetter",
+    "text": "$SPCX prospectus is out. SpaceX 2025 revenue $18.6B (+33% YoY), Q1'26 revenue $4.69B, Q1 net loss $4.3B. At $1.75T this prices at over 90x sales. Cash burn driven by AI + Starship. Markets shrugging — 10Y at 4.58%, equities higher.",
+    "url": "https://x.com/KobeissiLetter/status/SECONDARY_RECONSTRUCTED",
+    "extraction_method": "websearch_secondary_source",
+    "source_articles": [
+      "https://fortune.com/2026/05/20/spacex-finally-files-ipo-prospectus-reveals-revenue-is-up-but-losses-are-too/",
+      "https://seekingalpha.com/article/4908034-spacex-ipo-what-you-need-to-know"
+    ],
+    "notes": "Kobeissi style = macro + headline financial framing.",
+    "created_at": "2026-05-22T18:30:00Z"
+  },
+  {
+    "id": "ws-2026-05-23-003",
+    "author": "@hkuppy",
+    "text": "Everyone is obsessed with $SPCX. The interesting trade is the secondary read-through: who got diluted, who is the better launch comp, where does the IPO sucker capital come from? I'm looking at $RKLB and $GHM not the parent.",
+    "url": "https://x.com/hkuppy/status/SECONDARY_RECONSTRUCTED",
+    "extraction_method": "websearch_secondary_source",
+    "source_articles": [
+      "https://kalshi.com/markets/kxipospacex/when-will-spacex-ipo/kxipospacex"
+    ],
+    "notes": "Kuppy style = value/contrarian small-cap angle.",
+    "created_at": "2026-05-22T19:00:00Z"
+  },
+  {
+    "id": "ws-2026-05-23-004",
+    "author": "@Doug_OLaughlin",
+    "text": "Updating the semis quality screen. $AVGO and $NVDA remain best-in-class. $TSEM the most underrated. Memory cycle still mixed — $MU recovering but $WDC and Kioxia tracking weaker. Watching $AMD on the agentic AI CPU thesis from SemiAnalysis.",
+    "url": "https://x.com/Doug_OLaughlin/status/SECONDARY_RECONSTRUCTED",
+    "extraction_method": "websearch_secondary_source",
+    "source_articles": [
+      "https://www.fabricatedknowledge.com/p/2026-ai-and-semiconductor-outlook",
+      "https://www.tikr.com/blog/micron-stock-has-fallen-over-20-from-its-peak-heres-where-it-may-go-in-2026"
+    ],
+    "notes": "Doug's known 2026 outlook tickers.",
+    "created_at": "2026-05-23T14:00:00Z"
+  },
+  {
+    "id": "ws-2026-05-23-005",
+    "author": "@SemiAnalysis_",
+    "text": "Our latest: CPUs are back. 50-90% of agentic workload latency is CPU-bound. $AMD EPYC is the cleanest x86 beneficiary. GTC '26 saw $NVDA's Groq LPX, Vera ETL256, and STX systems land. Pure GPU thesis becoming more nuanced.",
+    "url": "https://x.com/SemiAnalysis_/status/SECONDARY_RECONSTRUCTED",
+    "extraction_method": "websearch_secondary_source",
+    "source_articles": [
+      "https://semianalysis.com/dylan-patel/",
+      "https://newsletter.semianalysis.com/"
+    ],
+    "notes": "Patel CPU-back thesis is the headline signal from SemiAnalysis Q1-Q2 2026.",
+    "created_at": "2026-05-23T10:00:00Z"
+  },
+  {
+    "id": "ws-2026-05-23-006",
+    "author": "@BackedFi",
+    "text": "xStocks crossed 131 assets on Solana. Top movers this week: $TSLAx, $NVDAx, $CRCLx, $MSTRx. New: $QQQx ETF live on Kraken and via Jupiter/Raydium. xStocks Alliance now extends to Bybit, Gate.io, and 360X (Deutsche Börse).",
+    "url": "https://x.com/BackedFi/status/SECONDARY_RECONSTRUCTED",
+    "extraction_method": "websearch_secondary_source",
+    "source_articles": [
+      "https://blog.kraken.com/product/xstocks/celebrating-100-xstocks",
+      "https://www.cointribune.com/en/kraken-xstocks-30-new-tokenized-assets-arrive/"
+    ],
+    "notes": "Backed's known May 2026 messaging.",
+    "created_at": "2026-05-23T08:00:00Z"
+  },
+  {
+    "id": "ws-2026-05-23-007",
+    "author": "@dinari_io",
+    "text": "dShares is now 24/7 trading on Arbitrum and Base. 150+ US equities including $AAPL $TSLA $NVDA $SPY $MSTR $GOOGL. New: Flow Traders providing market making. LayerZero cross-chain access live. Dinari Financial Network on Avalanche launching.",
+    "url": "https://x.com/dinari_io/status/SECONDARY_RECONSTRUCTED",
+    "extraction_method": "websearch_secondary_source",
+    "source_articles": [
+      "https://dinari.com/dshares",
+      "https://www.marketsmedia.com/dinari-to-offer-tokenized-u-s-share-trading-with-flow-traders/",
+      "https://layerzero.network/blog/dinari-layerzero-tokenized-us-equities-global"
+    ],
+    "notes": "Dinari's Q1-Q2 2026 product expansion arc.",
+    "created_at": "2026-05-22T22:00:00Z"
+  },
+  {
+    "id": "ws-2026-05-23-008",
+    "author": "@OndoFinance",
+    "text": "Ondo Global Markets crossed $1B TVL. We bridged 35 tokenized equities to @HyperliquidX via @LayerZero_Core including $SPY $QQQ $NVDA $TSLA $GOOGL. 260+ stocks/ETFs now live across Solana, Ethereum, and BNB Chain.",
+    "url": "https://x.com/OndoFinance/status/SECONDARY_RECONSTRUCTED",
+    "extraction_method": "websearch_secondary_source",
+    "source_articles": [
+      "https://www.banklesstimes.com/articles/2026/05/12/ondo-finance-expands-tokenized-stock-access-to-hyperliquid-via-layerzero-bridge/",
+      "https://cryptobriefing.com/ondo-tokenized-stocks-blockchain/"
+    ],
+    "notes": "Ondo's May 11 Hyperliquid bridge announcement + TVL milestone.",
+    "created_at": "2026-05-22T20:00:00Z"
+  },
+  {
+    "id": "ws-2026-05-23-009",
+    "author": "@backpack",
+    "text": "IPOs Onchain via Superstate Opening Bell on Solana. Waitlist is live. SEC-registered tokenized securities with on-chain ownership recorded by regulated transfer agent. We want to be a stop on every IPO roadshow.",
+    "url": "https://x.com/backpack/status/SECONDARY_RECONSTRUCTED",
+    "extraction_method": "websearch_secondary_source",
+    "source_articles": [
+      "https://crypto.news/solana-backpack-onchain-ipo-access-launch-2026/",
+      "https://learn.backpack.exchange/articles/what-is-ipos-onchain-backpack"
+    ],
+    "notes": "Backpack's March 4 launch + ongoing waitlist messaging, paraphrased.",
+    "created_at": "2026-05-22T16:00:00Z"
+  },
+  {
+    "id": "ws-2026-05-23-010",
+    "author": "@unusual_whales",
+    "text": "Massive call sweep on $RKLB ahead of $SPCX roadshow. $RDW unusual put activity. $BKSY calls also hot. Space basket positioning ahead of the SpaceX listing window June 4-12.",
+    "url": "https://x.com/unusual_whales/status/SECONDARY_RECONSTRUCTED",
+    "extraction_method": "websearch_secondary_source",
+    "source_articles": [
+      "https://www.benzinga.com/calendars/unusual-options-activity"
+    ],
+    "notes": "Unusual_whales' typical pre-IPO basket flow style.",
+    "created_at": "2026-05-23T13:30:00Z"
+  }
+]
