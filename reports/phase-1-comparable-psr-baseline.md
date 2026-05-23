@@ -3,7 +3,7 @@
 - **作成日**: 2026-05-23
 - **更新方針**: 月次 (毎月第一営業日に再取得)
 - **担当**: Katomasa (x402 Inc.)
-- **使用 Skill**: `stock-correlation` / `finance-data-providers` 経由で Yahoo Finance / Eastmoney adapter を叩く
+- **使用 Skill**: `yfinance-data` (実在する唯一の財務データ取得 Skill) + Claude による中央値計算
 
 ---
 
@@ -52,21 +52,21 @@
 
 ## 3. PSR 取得手順 (再現可能性のため明記)
 
-`finance-data-providers` プラグイン経由で:
+`yfinance-data` Skill で各銘柄の `marketCap` と `totalRevenue` (TTM) を取得し、Claude が `PSR = marketCap / totalRevenue` を計算する。Skill は **データ取得のみ**、PSR 計算・中央値処理は Claude 側で実装。
 
-```bash
-# 1. Trailing 12-month revenue を取得
-finance-data fetch --tickers SNOW,MDB,DDOG,NET,CRWD,ZS,HUBS,PATH,AI,GTLB,MNDY,ASAN,ADBE,PYPL,ADYEN.AS,SQ \
-  --field revenue_ttm \
-  --source yahoo
+### 取得対象フィールド (Yahoo Finance / yfinance 経由)
+- `marketCap` (時価総額, USD)
+- `totalRevenue` (TTM 売上, USD)
+- `revenueGrowth` (YoY 成長率) — 参考
+- `currency` — USD 以外は換算
 
-# 2. 直近時価総額を取得
-finance-data fetch --tickers <同上> --field market_cap --source yahoo
+### 想定フロー
+1. `yfinance-data` Skill に対象16ティッカーを渡し、上記フィールドを取得
+2. Claude が各銘柄について `PSR = marketCap / totalRevenue` を計算
+3. Tier (A/B/C) ごと・全体で中央値 / P25 / P75 を集計し、本ドキュメント §4 を更新
+4. ADR / 非 USD 銘柄 (`ADYEN.AS` 等) はその時点の為替で USD 換算
 
-# 3. PSR = market_cap / revenue_ttm
-```
-
-または `stock-correlation` Skill 内で自動計算。
+> 注: `finance-data` / `finance-data-providers` / `stock-correlation` のような Skill は **存在しない**。`yfinance-data` のみが財務データ取得を担う。
 
 ---
 
@@ -109,10 +109,10 @@ finance-data fetch --tickers <同上> --field market_cap --source yahoo
 
 ## 6. 次のアクション
 
-- [ ] `finance-data-providers` プラグインで上記17社の PSR を取得しテーブルを実値で上書き
-- [ ] 中央値を3 tier × 全体で計算
-- [ ] 月次 cron で再取得する仕組みを設定 (`settings.json` で hook 検討)
-- [ ] training cutoff 後の構造変化 (例: AI バブル調整・金利動向) を `finance-sentiment` で確認
+- [ ] `yfinance-data` Skill で上記16社の `marketCap` / `totalRevenue` (TTM) を取得
+- [ ] Claude が PSR を計算し、Tier (A/B/C) ごと・全体で中央値 / P25 / P75 を §4 に書き込み
+- [ ] 月次再取得する仕組みを設定 (`settings.json` の hook または手動 `/finance-update` 系 skill 検討)
+- [ ] training cutoff 後の構造変化 (AI バブル調整・金利・GPU 需給) を `twitter` / `telegram-news` で sentiment 確認
 
 ---
 

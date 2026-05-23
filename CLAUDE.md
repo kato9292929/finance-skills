@@ -37,32 +37,47 @@ SpaceX が IPO 観測 (時価総額 $1.75T 規模) で日本語圏でも話題�
 
 リストは分析中に必要に応じて差し替え可。
 
-## 使用する Skill
+## 使用する Skill (実在の5つのみ)
 
-himself65/finance-skills の以下のプラグインを活用:
+`himself65/finance-skills` は以下の **5 Skill** で構成される。本企画では各 Skill は **データ取得・補助レイヤー** に限定して位置付ける。**SaaS valuation compression の分析ロジック (PSR 計算・SOTP・Bull/Base/Bear シナリオ・確率加重・Compression 係数) は Claude 自身が WebSearch + 推論で実装する**。
 
-### 主要 Skill
-- saas-valuation-compression — メイン分析エンジン (DCF + relative + SOTP triangulation)
-- startup-analysis — VC視点でのスタートアップ評価
-- estimate-analysis — ARR / 成長率の estimate 構造化
+| Skill | 種別 | 本企画での用途 |
+|-------|------|---------------|
+| `yfinance-data` | データ取得 | **Phase 1**: comparable 上場 SaaS の market cap / revenue / PSR 取得 |
+| `twitter` | データ取得 | ユニコーン CEO 投稿・Musk 投稿・IPO リーク報道・ソーシャル sentiment |
+| `telegram-news` | データ取得 | 補助ニュースフィード (アジア・新興国報道含む) |
+| `options-payoff` | 補助分析 | 上場代理銘柄 (`RKLB`, `ADBE`, `MSFT` 等) でのヘッジ pay-off 可視化 |
+| `generative-ui` | 出力生成 | **Phase 4**: note 記事用の compression 係数チャート / 比較表 |
 
-### 補助 Skill
-- stock-correlation — comparable 上場 SaaS との相関 (Snowflake・MongoDB・Datadog 等)
-- stock-liquidity — 上場後の想定流動性試算
-- finance-sentiment — Twitter/X・LinkedIn・Discord・HackerNews での言及センチメント
-- discord-reader / linkedin-reader — ソーシャルでの定性データ取得
-- funda-data — Funda AI MCP server 経由の補強データ (必要時のみ・課金観測対象)
+### 分析ロジックの担当範囲
 
-## インストール状況
+| 項目 | 担当 |
+|------|------|
+| comparable 上場 SaaS データ取得 | `yfinance-data` |
+| 公開 SaaS PSR 中央値計算 | **Claude が yfinance 取得値から計算** |
+| 未上場ユニコーンのバリュエーション収集 | **Claude + WebSearch** (公式 PR / The Information / FT / Bloomberg / WSJ) |
+| 未上場 ARR 推定 | **Claude + WebSearch** + リーク報道照合 |
+| PSR 計算 / SOTP / Bull・Base・Bear / 確率加重 / Compression 係数 | **Claude が手計算で実装** |
+| sentiment 補強 | `twitter` / `telegram-news` |
+| 図表・比較表生成 (note 記事用) | `generative-ui` |
 
-```bash
-npx plugins add himself65/finance-skills --plugin finance-startup-tools
-npx plugins add himself65/finance-skills --plugin finance-market-analysis
-npx plugins add himself65/finance-skills --plugin finance-data-providers
-npx plugins add himself65/finance-skills --plugin finance-social-readers
-```
+### 重要な制約
 
-(インストール済み Skill は本ファイル更新で反映)
+- **未上場ユニコーンは `yfinance-data` では取得不可** (Yahoo Finance は上場銘柄のみ)。15社のバリュエーション・ARR は全て WebSearch ベースの推定。
+- 「Skill が valuation を分析してくれる」という前提は**誤り**。Skill はあくまでデータ取得・出力支援で、**分析ロジックは Claude が組み立てる**。
+- 各推定値は出典 URL を明記し、二次情報には「報道ベース推定」と注記する。
+
+## インストール (上流要確認)
+
+`himself65/finance-skills` は Claude Code プラグイン形式で配布されている (詳細は上流リポジトリ https://github.com/himself65/finance-skills の README で確認)。
+
+以下のような plugin 名は **存在しない** ので使用しないこと:
+- ❌ `finance-startup-tools`
+- ❌ `finance-market-analysis`
+- ❌ `finance-data-providers`
+- ❌ `finance-social-readers`
+
+正しいインストールコマンドは上流 README を参照し、本ファイルに追記する。
 
 ## 分析フレームワーク
 
@@ -147,14 +162,18 @@ note 公開用は読者向けに整理・簡略化。
 ## 進め方
 
 ### Phase 1 (1-2日): セットアップと検証
-- finance-skills の各プラグインが正常動作することを確認
-- comparable 上場 SaaS の現状 PSR を取得 (Snowflake・MongoDB・Datadog 等10-15社)
-- 公開 SaaS 中央値 PSR を計算・固定値として保存
+- `yfinance-data` Skill が正常動作することを確認
+- comparable 上場 SaaS の現状 PSR を `yfinance-data` で取得 (Snowflake・MongoDB・Datadog 等16社)
+- 中央値 PSR を Claude が計算し `reports/phase-1-comparable-psr-baseline.md` に固定値として保存
+- `twitter` / `telegram-news` の取得テスト (ユニコーン名で検索 → 報道が拾えるか)
 
 ### Phase 2 (3-7日): 個別企業分析
 - 優先度順に1社ずつ分析
 - 1日1-3社のペース
-- 各社の分析ファイルを作成
+- **WebSearch でバリュエーション・ARR・直近調達ラウンドの一次/二次情報を収集**
+- Phase 1 ベースライン PSR を分母に Compression 係数を Claude が計算
+- SOTP・Bull/Base/Bear シナリオも Claude が手計算で記述
+- `twitter` で当該企業/CEO に関する直近 sentiment を補強取得
 
 ### Phase 3 (1-2日): 総合レポート
 - 15社の compression 係数比較
@@ -163,7 +182,7 @@ note 公開用は読者向けに整理・簡略化。
 
 ### Phase 4 (1-2日): note 公開記事化
 - 投資家・スタートアップ層向けに整理
-- 図表生成 (generative-ui Skill 活用)
+- 図表生成は `generative-ui` Skill を活用 (compression 係数比較チャート等)
 - 公開
 
 ## 制約と注意事項
@@ -190,15 +209,16 @@ note 公開用は読者向けに整理・簡略化。
 
 ## x402 接続観察ポイント
 
-本プロジェクトの副次的な目的として、 「Skill が呼ぶ有料データレイヤー」の特定 を継続する。
+本プロジェクトの副次的な目的として、 **「分析実行中に発生した有料/従量データ需要の特定」** を継続する。
 
-### 観察対象
-- funda-data Skill が Funda AI MCP server を呼ぶタイミング・課金額
-- discord-reader / linkedin-reader が有料 API 経由になるか
-- 公開 SaaS の earnings データ取得で yfinance 制約に当たるか
-- 他に「サブスクではなく従量で叩きたいデータ」が発見されるか
+### 観察対象 (現実的なギャップ)
+- `yfinance-data` の制約: rate limit / 銘柄カバレッジ / fundamentals 深度 (10-K レベルにどこまで届くか)
+- WebSearch では取得しきれない一次情報 (The Information / Bloomberg Terminal / FT Premium の paywall 記事) の出現頻度
+- 未上場ユニコーンの secondary trade データ (Forge Global / EquityZen / Hiive) — 無料 API なし
+- `twitter` / `telegram-news` で取りきれない LinkedIn / Discord / 業界 Slack 等のクローズドソース
+- 業種特化データ (Starlink subscriber count / SaaS ARR estimate aggregator / 半導体出荷データ)
 
-これらは別途記録し、後日 x402 化候補リストとしてまとめる。
+これらは「サブスク契約は重いが、たまに従量で叩きたい」需要として記録し、後日 x402 化候補リストとしてまとめる。
 
 ## 関連リソース
 
@@ -216,3 +236,4 @@ Katomasa (x402 Inc.)
 ## 更新履歴
 
 - 2026-05-23: 初版作成
+- 2026-05-23: **重大修正**。架空の Skill (`saas-valuation-compression` / `startup-analysis` / `estimate-analysis` / `stock-correlation` / `stock-liquidity` / `finance-sentiment` / `discord-reader` / `linkedin-reader` / `funda-data`) と架空の plugin 名 (`finance-startup-tools` 等) を全て削除。実在 5 Skill (`yfinance-data` / `twitter` / `telegram-news` / `options-payoff` / `generative-ui`) に置換し、分析ロジックは Claude 自身が WebSearch + 推論で実装する設計に変更。
