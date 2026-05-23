@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-05-23",
+  "description": "一次発行 IPO アロケーション onchain プラットフォーム情報。週1 WebSearch refresh。",
+  "refresh_procedure": {
+    "frequency": "weekly",
+    "queries": [
+      "Backpack IPO onchain waitlist current deals 2026",
+      "Superstate Opening Bell new issuance 2026",
+      "tokenized IPO allocation onchain platform 2026"
+    ]
+  },
+  "platforms": [
+    {
+      "id": "backpack_ipos_onchain",
+      "name": "Backpack IPOs Onchain",
+      "url": "https://backpack.exchange/ipo-access",
+      "docs": "https://learn.backpack.exchange/articles/what-is-ipos-onchain-backpack",
+      "chain": "Solana",
+      "transfer_agent": "Superstate (SEC-registered)",
+      "platform_used": "Superstate Opening Bell",
+      "announced": "2026-03-04",
+      "announced_by": "Armani Ferrante (Backpack CEO)",
+      "regulatory_model": "SEC-registered securities, ownership recorded on-chain by regulated transfer agent",
+      "current_status": "waitlist open",
+      "settlement": "Solana onchain (faster than DTCC T+1)",
+      "deals_pipeline": [],
+      "eligibility": "Eligibility requirements apply (US accredited investors initially)",
+      "sources": [
+        "https://crypto.news/solana-backpack-onchain-ipo-access-launch-2026/",
+        "https://www.bankless.com/read/news/backpack-and-superstate-team-up-to-launch-ipos-on-solana",
+        "https://thedefiant.io/news/defi/backpack-to-offer-on-chain-ipo-shares-solana-via-superstate",
+        "https://blockonomi.com/backpack-takes-ipo-allocations-onchain-with-superstate/",
+        "https://learn.backpack.exchange/articles/what-is-ipos-onchain-backpack"
+      ]
+    }
+  ],
+  "future_platforms": [
+    {
+      "platform": "Superstate Opening Bell direct (non-Backpack)",
+      "status": "他取引所/プラットフォームとの統合 expansion 観察対象",
+      "sources": [
+        "https://cryptobriefing.com/ipo-tokenization-partnership/"
+      ]
+    }
+  ]
+}

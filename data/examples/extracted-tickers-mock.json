@@ -1,0 +1,119 @@
+{
+  "generated_at": "2026-05-23T14:48:50Z",
+  "post_count": 5,
+  "ticker_count": 7,
+  "tickers": [
+    {
+      "ticker": "NVDA",
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@Doug_OLaughlin"
+      ],
+      "mentions": [
+        {
+          "source": "@Doug_OLaughlin",
+          "url": "https://x.com/Doug_OLaughlin/status/1",
+          "timestamp": "2026-05-23T14:23:00Z",
+          "context": "$NVDA Blackwell ramp is exceeding expectations. AMD also looks in"
+        }
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@Doug_OLaughlin"
+      ],
+      "mentions": [
+        {
+          "source": "@Doug_OLaughlin",
+          "url": "https://x.com/Doug_OLaughlin/status/1",
+          "timestamp": "2026-05-23T14:23:00Z",
+          "context": "$NVDA Blackwell ramp is exceeding expectations. AMD also looks interesting here."
+        }
+      ]
+    },
+    {
+      "ticker": "GHM",
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@InTheAssembly"
+      ],
+      "mentions": [
+        {
+          "source": "@InTheAssembly",
+          "url": "https://x.com/InTheAssembly/status/2",
+          "timestamp": "2026-05-23T15:00:00Z",
+          "context": "Watching $VELO, $RDW, $BKSY, $GHM — the small-cap space defense names are heating up. $5B+ co"
+        }
+      ]
+    },
+    {
+      "ticker": "BKSY",
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@InTheAssembly"
+      ],
+      "mentions": [
+        {
+          "source": "@InTheAssembly",
+          "url": "https://x.com/InTheAssembly/status/2",
+          "timestamp": "2026-05-23T15:00:00Z",
+          "context": "Watching $VELO, $RDW, $BKSY, $GHM — the small-cap space defense names are heating up. $"
+        }
+      ]
+    },
+    {
+      "ticker": "VELO",
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@InTheAssembly"
+      ],
+      "mentions": [
+        {
+          "source": "@InTheAssembly",
+          "url": "https://x.com/InTheAssembly/status/2",
+          "timestamp": "2026-05-23T15:00:00Z",
+          "context": "Watching $VELO, $RDW, $BKSY, $GHM — the small-cap space defense names are"
+        }
+      ]
+    },
+    {
+      "ticker": "RDW",
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@InTheAssembly"
+      ],
+      "mentions": [
+        {
+          "source": "@InTheAssembly",
+          "url": "https://x.com/InTheAssembly/status/2",
+          "timestamp": "2026-05-23T15:00:00Z",
+          "context": "Watching $VELO, $RDW, $BKSY, $GHM — the small-cap space defense names are heatin"
+        }
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "mention_count": 1,
+      "weighted_mention_count": 1.0,
+      "unique_sources": [
+        "@KobeissiLetter"
+      ],
+      "mentions": [
+        {
+          "source": "@KobeissiLetter",
+          "url": "https://x.com/KobeissiLetter/status/5",
+          "timestamp": "2026-05-23T18:00:00Z",
+          "context": "Markets up 2% today. SPY at ATH. EPS estimates ticking higher."
+        }
+      ]
+    }
+  ]
+}

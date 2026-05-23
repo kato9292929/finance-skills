@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-05-23",
+  "description": "上場済株式の onchain トークン化発行体マスタ。週1回 WebSearch で refresh。`underlying_ticker` をキーに outputs/daily-*.json から join される。",
+  "refresh_procedure": {
+    "frequency": "weekly",
+    "queries": [
+      "xStocks full ticker list Kraken 2026 site:kraken.com",
+      "Backed Finance Base bTickers 2026 site:backed.fi",
+      "Dinari dShares full list 2026 site:dinari.com",
+      "Ondo Global Markets tokenized stocks list 2026 site:ondo.finance"
+    ]
+  },
+  "issuers": [
+    {
+      "id": "xstocks",
+      "name": "Backed Finance (xStocks)",
+      "url": "https://xstocks.fi",
+      "official_docs": "https://www.kraken.com/xstocks",
+      "primary_chain": "Solana",
+      "secondary_chains": [],
+      "naming_convention": "<TICKER>x  (例: TSLAx, NVDAx, AAPLx)",
+      "model": "Freely Transferable, 1:1 backed by underlying held by regulated custodian",
+      "issuer_entity": "Backed Finance AG (Swiss DLT Act)",
+      "ownership": "Acquired by Kraken (Dec 2025)",
+      "asset_count_total": 131,
+      "asset_count_stocks": 100,
+      "asset_count_etfs": 27,
+      "asset_count_specialist": 4,
+      "target_2026_eoy": 500,
+      "venues_cex": ["Kraken", "Bybit", "Gate.io"],
+      "venues_dex_solana": ["Jupiter", "Raydium", "Orca"],
+      "venues_eu_regulated": ["360X (Deutsche Börse)"],
+      "geo_restrictions": ["US", "UK", "CA", "AU", "EU"],
+      "known_tickers": [
+        {"underlying_ticker": "TSLA", "token_symbol": "TSLAx"},
+        {"underlying_ticker": "NVDA", "token_symbol": "NVDAx"},
+        {"underlying_ticker": "AAPL", "token_symbol": "AAPLx"},
+        {"underlying_ticker": "GOOGL", "token_symbol": "GOOGLx"},
+        {"underlying_ticker": "MSTR", "token_symbol": "MSTRx"},
+        {"underlying_ticker": "CRCL", "token_symbol": "CRCLx"},
+        {"underlying_ticker": "QQQ", "token_symbol": "QQQx"}
+      ],
+      "sources": [
+        "https://blog.kraken.com/product/xstocks/celebrating-100-xstocks",
+        "https://www.kraken.com/xstocks",
+        "https://solana.com/news/case-study-xstocks",
+        "https://www.cointribune.com/en/kraken-xstocks-30-new-tokenized-assets-arrive/"
+      ]
+    },
+    {
+      "id": "backed_base",
+      "name": "Backed Finance (Base)",
+      "url": "https://backed.fi",
+      "primary_chain": "Base",
+      "secondary_chains": ["Ethereum"],
+      "naming_convention": "b<TICKER>  (例: bCOIN, bNVDA, bGOOGL, bTSLA, bGME)",
+      "model": "Freely Transferable, 1:1 backed",
+      "issuer_entity": "Backed Finance AG",
+      "asset_count_total": null,
+      "venues_dex_base": ["Aerodrome", "CoW Swap"],
+      "geo_restrictions": ["US", "UK", "CA", "AU", "EU"],
+      "known_tickers": [
+        {"underlying_ticker": "COIN", "token_symbol": "bCOIN"},
+        {"underlying_ticker": "NVDA", "token_symbol": "bNVDA"},
+        {"underlying_ticker": "CSPX", "token_symbol": "bCSPX"},
+        {"underlying_ticker": "GOOGL", "token_symbol": "bGOOGL"},
+        {"underlying_ticker": "TSLA", "token_symbol": "bTSLA"},
+        {"underlying_ticker": "GME", "token_symbol": "bGME"}
+      ],
+      "sources": [
+        "https://backed.fi/news-updates/backed-issued-tokenized-coinbase-stock-bcoin-on-base",
+        "https://backed.fi/news-updates/backed-launches-five-new-tokenized-equities-including-bgoogl-btsla-and-bgme"
+      ]
+    },
+    {
+      "id": "dinari",
+      "name": "Dinari (dShares)",
+      "url": "https://dinari.com",
+      "primary_chain": "Arbitrum",
+      "secondary_chains": ["Ethereum", "Blast", "Kinto", "Base", "Dinari Financial Network (Avalanche L1)"],
+      "naming_convention": "d<TICKER>  (例: dMSTR, dAAPL, dTSLA, dNVDA)",
+      "model": "Permissioned (verified wallets only), 1:1 backed, dividends paid in USD+ stablecoin",
+      "issuer_entity": "Dinari Inc.",
+      "asset_count_total": 200,
+      "geo_eligibility": "85+ countries via partner network",
+      "known_tickers": [
+        {"underlying_ticker": "MSTR", "token_symbol": "dMSTR"},
+        {"underlying_ticker": "AAPL", "token_symbol": "dAAPL"},
+        {"underlying_ticker": "TSLA", "token_symbol": "dTSLA"},
+        {"underlying_ticker": "NVDA", "token_symbol": "dNVDA"},
+        {"underlying_ticker": "SPY", "token_symbol": "dSPY"},
+        {"underlying_ticker": "GOOGL", "token_symbol": "dGOOGL"}
+      ],
+      "sources": [
+        "https://dinari.com/dshares",
+        "https://www.gemini.com/blog/weve-launched-tokenized-stocks-starting-with-microstrategy-mstr",
+        "https://blockworks.com/news/dinari-tokenization-rwas-base",
+        "https://www.avax.network/about/blog/dinari-launches-the-dinari-financial-network",
+        "https://layerzero.network/blog/dinari-layerzero-tokenized-us-equities-global"
+      ]
+    },
+    {
+      "id": "ondo_global_markets",
+      "name": "Ondo Global Markets",
+      "url": "https://ondo.finance/global-markets",
+      "primary_chain": "Solana",
+      "secondary_chains": ["Ethereum", "BNB Chain"],
+      "naming_convention": "TBD (Ondo 公式リスト参照)",
+      "model": "1:1 backed (US-registered broker-dealer custody), tracks total return incl. dividends, prospectus on-chain via Broadridge",
+      "issuer_entity": "Ondo Finance",
+      "asset_count_total": 260,
+      "market_share_pct": 70,
+      "tvl_usd": 1000000000,
+      "launched": "2025-09",
+      "partnerships": ["Franklin Templeton (5 ETFs)", "DTCC consortium (BlackRock, Goldman Sachs)", "Broadridge (shareholder voting)"],
+      "geo_eligibility": "EU/EEA approved (30 countries, 500M+ investors)",
+      "known_tickers": [],
+      "sources": [
+        "https://ondo.finance/global-markets",
+        "https://www.coindesk.com/business/2026/01/21/ondo-finance-brings-200-tokenized-u-s-stocks-and-etfs-to-solana",
+        "https://cryptobriefing.com/ondo-finance-1b-tokenized-stock-tvl/",
+        "https://www.marketsmedia.com/ondo-global-markets-makes-largest-launch-of-tokenized-equities/",
+        "https://www.broadridge.com/press-release/2026/broadridge-and-ondo-bring-shareholder-voting-capabilities-to-tokenized-securities"
+      ]
+    }
+  ],
+  "future_layer_l3": {
+    "description": "L3 = 取引所側のトークン化計画。情報追跡のみで、ticker join 対象外。",
+    "items": [
+      {
+        "platform": "Coinbase Tokenize",
+        "status": "2026年内ローンチ予定",
+        "partner": "Centrifuge (preferred tokenization backbone, equity stake taken by Coinbase 2026-05)",
+        "sources": [
+          "https://www.coindesk.com/business/2026/05/05/coinbase-taps-centrifuge-as-preferred-tokenization-backbone-takes-equity-stake"
+        ]
+      },
+      {
+        "platform": "Base App tokenized stock trading hub",
+        "status": "計画段階",
+        "sources": []
+      },
+      {
+        "platform": "Nasdaq × Kraken (xStocks distribution)",
+        "status": "Phase 1 ローンチは 2027 H1 予定 (EU + international 配布)",
+        "sources": [
+          "https://solana.com/news/case-study-xstocks"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "date": "2026-05-23",
+  "generated_at": "2026-05-23T14:51:37Z",
+  "schema_version": "1.0.0",
+  "disclaimer": "Data API only. Not investment advice. xStocks/Backpack IPOs Onchain have geographic eligibility requirements; verify on the platform.",
+  "ticker_count": 7,
+  "tickers": [
+    {
+      "ticker": "NVDA",
+      "company_name": "NVIDIA Corporation",
+      "listing_market": "NASDAQ",
+      "is_listed": true,
+      "price_usd": "1320.50",
+      "price_change_24h_pct": "+1.8",
+      "market_cap_usd": "3250000000000",
+      "volume_24h": "42000000",
+      "earnings_date_next": "2026-08-27",
+      "mentions_24h": [
+        {
+          "source": "@Doug_OLaughlin",
+          "url": "https://x.com/Doug_OLaughlin/status/1",
+          "timestamp": "2026-05-23T14:23:00Z",
+          "context": "$NVDA Blackwell ramp is exceeding expectations. AMD also looks in"
+        }
+      ],
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@Doug_OLaughlin"
+      ],
+      "tokenized_versions": [
+        {
+          "issuer": "Backed Finance (xStocks)",
+          "issuer_id": "xstocks",
+          "symbol": "NVDAx",
+          "chain": "Solana",
+          "model": "Freely Transferable, 1:1 backed by underlying held by regulated custodian",
+          "venues": [
+            "Kraken",
+            "Bybit",
+            "Gate.io",
+            "Jupiter",
+            "Raydium",
+            "Orca",
+            "360X (Deutsche Börse)"
+          ],
+          "geo_restrictions": [
+            "US",
+            "UK",
+            "CA",
+            "AU",
+            "EU"
+          ]
+        },
+        {
+          "issuer": "Backed Finance (Base)",
+          "issuer_id": "backed_base",
+          "symbol": "bNVDA",
+          "chain": "Base",
+          "model": "Freely Transferable, 1:1 backed",
+          "venues": [
+            "Aerodrome",
+            "CoW Swap"
+          ],
+          "geo_restrictions": [
+            "US",
+            "UK",
+            "CA",
+            "AU",
+            "EU"
+          ]
+        },
+        {
+          "issuer": "Dinari (dShares)",
+          "issuer_id": "dinari",
+          "symbol": "dNVDA",
+          "chain": "Arbitrum",
+          "model": "Permissioned (verified wallets only), 1:1 backed, dividends paid in USD+ stablecoin",
+          "venues": [],
+          "geo_restrictions": []
+        }
+      ],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    },
+    {
+      "ticker": "AMD",
+      "company_name": "Advanced Micro Devices",
+      "listing_market": "NASDAQ",
+      "is_listed": true,
+      "price_usd": "220.30",
+      "price_change_24h_pct": "+2.1",
+      "market_cap_usd": "356000000000",
+      "volume_24h": "38000000",
+      "earnings_date_next": "2026-07-29",
+      "mentions_24h": [
+        {
+          "source": "@Doug_OLaughlin",
+          "url": "https://x.com/Doug_OLaughlin/status/1",
+          "timestamp": "2026-05-23T14:23:00Z",
+          "context": "$NVDA Blackwell ramp is exceeding expectations. AMD also looks interesting here."
+        }
+      ],
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@Doug_OLaughlin"
+      ],
+      "tokenized_versions": [],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    },
+    {
+      "ticker": "GHM",
+      "company_name": "Graham Corporation",
+      "listing_market": "NYSE",
+      "is_listed": true,
+      "price_usd": "55.80",
+      "price_change_24h_pct": "+1.1",
+      "market_cap_usd": "620000000",
+      "volume_24h": "180000",
+      "earnings_date_next": "2026-08-15",
+      "mentions_24h": [
+        {
+          "source": "@InTheAssembly",
+          "url": "https://x.com/InTheAssembly/status/2",
+          "timestamp": "2026-05-23T15:00:00Z",
+          "context": "Watching $VELO, $RDW, $BKSY, $GHM — the small-cap space defense names are heating up. $5B+ co"
+        }
+      ],
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@InTheAssembly"
+      ],
+      "tokenized_versions": [],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    },
+    {
+      "ticker": "BKSY",
+      "company_name": "BlackSky Technology",
+      "listing_market": "NYSE",
+      "is_listed": true,
+      "price_usd": "18.20",
+      "price_change_24h_pct": "+3.2",
+      "market_cap_usd": "550000000",
+      "volume_24h": "1500000",
+      "earnings_date_next": "2026-08-08",
+      "mentions_24h": [
+        {
+          "source": "@InTheAssembly",
+          "url": "https://x.com/InTheAssembly/status/2",
+          "timestamp": "2026-05-23T15:00:00Z",
+          "context": "Watching $VELO, $RDW, $BKSY, $GHM — the small-cap space defense names are heating up. $"
+        }
+      ],
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@InTheAssembly"
+      ],
+      "tokenized_versions": [],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    },
+    {
+      "ticker": "VELO",
+      "company_name": "Velo3D (delisted 2024, references in context likely refer to private renewable company)",
+      "listing_market": null,
+      "is_listed": false,
+      "price_usd": null,
+      "price_change_24h_pct": null,
+      "market_cap_usd": null,
+      "volume_24h": null,
+      "earnings_date_next": null,
+      "mentions_24h": [
+        {
+          "source": "@InTheAssembly",
+          "url": "https://x.com/InTheAssembly/status/2",
+          "timestamp": "2026-05-23T15:00:00Z",
+          "context": "Watching $VELO, $RDW, $BKSY, $GHM — the small-cap space defense names are"
+        }
+      ],
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@InTheAssembly"
+      ],
+      "tokenized_versions": [],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": [],
+      "unlisted_context": {
+        "ipo_status": "ambiguous - context check required",
+        "notes": "If The Assembly post references a private SpaceX-proxy, verify before serving.",
+        "sources": []
+      }
+    },
+    {
+      "ticker": "RDW",
+      "company_name": "Redwire Corporation",
+      "listing_market": "NYSE",
+      "is_listed": true,
+      "price_usd": "32.45",
+      "price_change_24h_pct": "+4.5",
+      "market_cap_usd": "2400000000",
+      "volume_24h": "2100000",
+      "earnings_date_next": "2026-08-12",
+      "mentions_24h": [
+        {
+          "source": "@InTheAssembly",
+          "url": "https://x.com/InTheAssembly/status/2",
+          "timestamp": "2026-05-23T15:00:00Z",
+          "context": "Watching $VELO, $RDW, $BKSY, $GHM — the small-cap space defense names are heatin"
+        }
+      ],
+      "mention_count": 1,
+      "weighted_mention_count": 1.5,
+      "unique_sources": [
+        "@InTheAssembly"
+      ],
+      "tokenized_versions": [],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    },
+    {
+      "ticker": "SPY",
+      "company_name": "SPDR S&P 500 ETF Trust",
+      "listing_market": "NYSE Arca",
+      "is_listed": true,
+      "price_usd": "612.50",
+      "price_change_24h_pct": "+2.0",
+      "market_cap_usd": "705000000000",
+      "volume_24h": "85000000",
+      "earnings_date_next": null,
+      "mentions_24h": [
+        {
+          "source": "@KobeissiLetter",
+          "url": "https://x.com/KobeissiLetter/status/5",
+          "timestamp": "2026-05-23T18:00:00Z",
+          "context": "Markets up 2% today. SPY at ATH. EPS estimates ticking higher."
+        }
+      ],
+      "mention_count": 1,
+      "weighted_mention_count": 1.0,
+      "unique_sources": [
+        "@KobeissiLetter"
+      ],
+      "tokenized_versions": [
+        {
+          "issuer": "Dinari (dShares)",
+          "issuer_id": "dinari",
+          "symbol": "dSPY",
+          "chain": "Arbitrum",
+          "model": "Permissioned (verified wallets only), 1:1 backed, dividends paid in USD+ stablecoin",
+          "venues": [],
+          "geo_restrictions": []
+        }
+      ],
+      "primary_issuance_available": false,
+      "primary_issuance_platforms": []
+    }
+  ]
+}

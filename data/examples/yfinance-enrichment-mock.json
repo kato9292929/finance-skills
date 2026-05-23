@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-05-23T23:00:00Z",
+  "note": "MOCK enrichment. In production this is filled by the yfinance-data Skill.",
+  "tickers": [
+    {
+      "ticker": "NVDA",
+      "company_name": "NVIDIA Corporation",
+      "listing_market": "NASDAQ",
+      "price_usd": "1320.50",
+      "price_change_24h_pct": "+1.8",
+      "market_cap_usd": "3250000000000",
+      "volume_24h": "42000000",
+      "earnings_date_next": "2026-08-27"
+    },
+    {
+      "ticker": "AMD",
+      "company_name": "Advanced Micro Devices",
+      "listing_market": "NASDAQ",
+      "price_usd": "220.30",
+      "price_change_24h_pct": "+2.1",
+      "market_cap_usd": "356000000000",
+      "volume_24h": "38000000",
+      "earnings_date_next": "2026-07-29"
+    },
+    {
+      "ticker": "RDW",
+      "company_name": "Redwire Corporation",
+      "listing_market": "NYSE",
+      "price_usd": "32.45",
+      "price_change_24h_pct": "+4.5",
+      "market_cap_usd": "2400000000",
+      "volume_24h": "2100000",
+      "earnings_date_next": "2026-08-12"
+    },
+    {
+      "ticker": "BKSY",
+      "company_name": "BlackSky Technology",
+      "listing_market": "NYSE",
+      "price_usd": "18.20",
+      "price_change_24h_pct": "+3.2",
+      "market_cap_usd": "550000000",
+      "volume_24h": "1500000",
+      "earnings_date_next": "2026-08-08"
+    },
+    {
+      "ticker": "GHM",
+      "company_name": "Graham Corporation",
+      "listing_market": "NYSE",
+      "price_usd": "55.80",
+      "price_change_24h_pct": "+1.1",
+      "market_cap_usd": "620000000",
+      "volume_24h": "180000",
+      "earnings_date_next": "2026-08-15"
+    },
+    {
+      "ticker": "SPY",
+      "company_name": "SPDR S&P 500 ETF Trust",
+      "listing_market": "NYSE Arca",
+      "price_usd": "612.50",
+      "price_change_24h_pct": "+2.0",
+      "market_cap_usd": "705000000000",
+      "volume_24h": "85000000",
+      "earnings_date_next": null
+    }
+  ]
+}

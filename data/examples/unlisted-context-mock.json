@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-05-23T23:00:00Z",
+  "note": "MOCK. In production filled by WebSearch agent for tickers not in yfinance.",
+  "tickers": [
+    {
+      "ticker": "VELO",
+      "company_name": "Velo3D (delisted 2024, references in context likely refer to private renewable company)",
+      "listing_market": null,
+      "ipo_status": "ambiguous - context check required",
+      "notes": "If The Assembly post references a private SpaceX-proxy, verify before serving.",
+      "sources": []
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+# Daily run artifacts (本番データはコミットしない; outputs/ の .MOCK.json は例外)
+data/twitter-posts-*.json
+data/extracted-tickers-2*.json
+data/yfinance-enrichment-2*.json
+data/unlisted-context-2*.json
+outputs/daily-stock-data-2*.json
+!outputs/daily-stock-data-*.MOCK.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
